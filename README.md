@@ -1,39 +1,19 @@
-# FoodAdvisor Quick Start
+# Strapi API
 
-## 1. Clone FoodAdvisor
+## Available Scripts
 
-Clone FoodAdvisor
+In the project directory, you can run:
 
-`Path: ./my-projects/`:
+### `yarn`
 
-```
-git clone https://github.com/strapi/foodadvisor.git
-```
+`yarn` installs all dependencies to make this project work.
 
-Navigate to your `./my-projects/foodadvisor` folder by running `cd foodadvisor` from your command line.
+### `yarn seed`
 
-## 2. Start Strapi
+`yarn seed` seeds demo data.
 
-Naviagte to your `./my-projects/foodadvisor/api` folder by running `cd api` from your command line.
+**You need to run this command before starting your project**
 
-In `./my-projects/foodadvisor/api`, run the following from your command line:
-
-```
-yarn && yarn run seed && yarn develop
-```
-
-Then, follow [Step 2. Create an admin user](https://strapi.io/documentation/v3.x/getting-started/quick-start.html#_2-create-an-administrator-user) to create an `Administrator`.
-
-You will find more information and options in the [**api** README](./api).
-
-## 3. Start the front-end 
-
-Navigate to your `./my-projects/foodadvisor/client` folder by running `cd client` from your command line.
-
-In `./my-projects/foodadvisor/client`, run the following from your command line:
-
-```
-yarn && yarn start
-```
-
-You will find more information and options in the [**client** README](./client).
+### `yarn develop`
+`yarn develop` starts the server in developement environment and builds the administration panel.
+Open [http://localhost:1337/admin](http://localhost:1337/admin) to view it in the browser.
